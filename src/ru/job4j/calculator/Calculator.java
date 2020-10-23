@@ -10,13 +10,9 @@ public class Calculator {
         int sixDivTwo = six / 2;
         int fiveMinusTwo = five - 2;
         int fourTimeTwo = four * 2;
-
+  // Вывод на консоль переменных sixDivTwo, fiveMinusTwo, fourTimeTwo.
         System.out.println(sixDivTwo);
         System.out.println(fiveMinusTwo);
         System.out.println(fourTimeTwo);
-
-        // Вывод на консоль переменных sixDivTwo, fiveMinusTwo, fourTimeTwo.
-
-
     }
 }
