@@ -17,7 +17,7 @@ public class PointTest {
 
     @Test
     public void when21to22then2() {
-        int expected = 2;
+        int expected = 1;
         int x1 = 2;
         int y1 = 1;
         int x2 = 2;
