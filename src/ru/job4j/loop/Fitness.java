@@ -7,7 +7,7 @@ public class Fitness {
 
         //Количество месяцев по умолчанию
         int month = 0;
-        while (ivan < nik) {
+        while (ivan <= nik) {
             //Если тяга ивана меньше, то количествоо месцев увеличивается
             month += 1;
             // Иван увеличивает тягу в 3 раза
@@ -16,11 +16,7 @@ public class Fitness {
             nik *= 2;
             System.out.println(ivan);
             //Выйти из цикла если ivan > nik
-            if (ivan > nik) {
-                break;
-            }
         }
-
         return month;
     }
 }
