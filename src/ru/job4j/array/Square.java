@@ -7,7 +7,8 @@ public class Square {
         int[] rsl = new int[bound];
         // перебираем значения index до bound
         for (int index = 0; index < bound; index++) {
-            //значнения index возводим в квадрат, тем самым//bound т.к. явлеяется ссылкой массива
+            //значнения index возводим в квадрат, тем самым
+            //bound т.к. явлеяется ссылкой массива
             rsl[index] = index * index;
         }
         return rsl;
