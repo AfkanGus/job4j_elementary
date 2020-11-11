@@ -5,7 +5,7 @@ public class FindLoop {
         // rsl хранит
         int rst = -1;
         //Перебираем элементы массива до rst
-        for (int index = 0; index >= rst; index++) {
+        for (int index = 0; index < data.length; index++) {
 
             if (data[index] == el) {
                 rst = index;
