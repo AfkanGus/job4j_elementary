@@ -16,9 +16,9 @@ public class SquareTest {
 
     @Test
     public void whenBound5Then014() {
-        int bound = 3;
+        int bound = 5;
         int[] rsl = Square.calculate(bound);
-        int[] expect = new int[]{0, 1, 4};
+        int[] expect = new int[]{0, 1, 4, 9, 16};
         assertThat(rsl, is(expect));
     }
 }
