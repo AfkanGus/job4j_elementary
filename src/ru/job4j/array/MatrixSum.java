@@ -10,7 +10,7 @@ public class MatrixSum {
         // длины массива array,увеличиваясь на 1 при
         // каждом прогоне с 0 до array.length.
         for (int row = 0; row < array.length; row++) {
-            //Перебираем ячеки cell массива array до длины строки row массива array
+            //Индексы cell не должны превышать значения длины массива, который находится по индексам row в массиве array
             for (int cell = 0; cell < array[row].length; cell++) {
                 //Складываем все элементы двухмерного массва
                 rsl = array[row][cell] + rsl; // rsl +=
