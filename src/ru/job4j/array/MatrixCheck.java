@@ -40,4 +40,23 @@ public class MatrixCheck {
         }
         return rsl;
     }
+
+    /*В этом задании вам нужно будет написать код проверки
+     выигрышной ситуации в игре сокобан.*/
+    /*Метод, который проверяет, находится ли на поле выигрышная ситуация.*/
+    public static boolean isWin(char[][] board) {
+        boolean result = false;
+        //Перебираем ячеки, ищем Х,он долже быть по диагонали,
+        // если нашли, то в  if проверяем
+        for (int index = 0; index < board.length; index++) {
+            //Если все элементы в строке и столбце(вызав методы проверки заполнения
+            // 'X' в строке и столбце)содержат элеметы 'Х', вернуть true
+            if (MatrixCheck.monoHorizontal(board, index) || MatrixCheck.monoVertical(board, index)) {
+                result = true;
+                //Принудительно завершить цикл
+                break;
+            }
+        }
+        return result;
+    }
 }
