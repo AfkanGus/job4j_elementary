@@ -10,7 +10,7 @@ public class Defragment {
                 int point = index;
                 //Здес ищем не с null
                 for (int i = point + 1; i < array.length; i++) {
-                    //если ячейки с индексами не равное null, т,е. не пустые
+                    //если есть ячейки с индексами не равное null, т,е. не пустые
                     if(array[i] != null){
                         //то меняем ячейки
                         array[point] = array[i];
