@@ -14,7 +14,7 @@ public class DefragmentTest {
     }
 
     @Test
-    public void notForstNull() {
+    public void notFirstNull() {
         String[] input = {"I", null, "wanna", null, "be", null, "compressed"};
         String[] compressed = Defragment.compress(input);
         String[] expected = {"I", "wanna", "be", "compressed", null, null, null};

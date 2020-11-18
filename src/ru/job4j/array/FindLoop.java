@@ -10,7 +10,7 @@ public class FindLoop {
         for (int i = 0; i < data.length; i++) {
             if (data[i] == el) {
                 rst = i;
-                break;
+
             }
         }
         return rst;
@@ -21,12 +21,14 @@ public class FindLoop {
     public static int indexOf(int[] data, int el, int start, int finish) {
         int rsl = -1;
         //Перебираем эл.массива в диапозоне от start - finish
-        for (int i = start; i < finish; i++) {
+        for (int i = start; i <= finish; i++) {
             //Если длина последнего эл.мас. с вычетом предедушего ровна
             //el то вернуть значение эл. i
-            if (data[data.length - 1 - i] == el) {
+            if (data[i] == el) {
                 rsl = i;
+                break;
             }
+
         }
         return rsl;
     }
