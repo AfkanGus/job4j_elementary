@@ -8,7 +8,7 @@ public class MatrixCheck {
         //Перебираем все индексы ячейки в массиве board
         for (int index = 0; index < board.length; index++) {
             /*Если все индексы строки и колонки([row][index]) не равны 'X'*/
-            if (board[row][index] != 'X') {
+            if (board[row][index] == 'X') {
                 /*то вернем false*/
                 result = false;
                 break;
@@ -22,7 +22,7 @@ public class MatrixCheck {
     public static boolean monoVertical(char[][] board, int column) {
         boolean result = true;
         for (int index = 0; index < board.length; index++) {
-            if (board[index][column] != 'X') {
+            if (board[index][column] == 'X') {
                 result = false;
                 break;
             }
@@ -49,8 +49,8 @@ public class MatrixCheck {
         //Перебираем ячеки, ищем Х,он долже быть по диагонали,
         // если нашли, то в  if проверяем
         for (int index = 0; index < board.length; index++) {
-            //Если все элементы в строке и столбце(вызав методы проверки заполнения
-            // 'X' в строке и столбце)содержат элеметы 'Х', вернуть true
+            //Здесь делаем проверку по диагонали
+            if(board[index][index] =='X');
             if (MatrixCheck.monoHorizontal(board, index) || MatrixCheck.monoVertical(board, index)) {
                 result = true;
                 //Принудительно завершить цикл
