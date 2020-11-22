@@ -1,17 +1,19 @@
 package ru.job4j.array;
 
+/*В этом уроке необходимо написать код, который будет перемещать заполненные
+ячейки массива в начало, а пустые в конец.*/
 public class Defragment {
-    public static String[] compress(String[] array){
+    public static String[] compress(String[] array) {
         //Здесь ищем ячейки с null, если на шли то в if
         for (int index = 0; index < array.length; index++) {
             //Здесь сравнваем,если ячейка array[index] это null
-            if (array[index] == null){
+            if (array[index] == null) {
                 //то переменной point присваиваем значения индексов
                 int point = index;
                 //Здес ищем не с null
                 for (int i = point + 1; i < array.length; i++) {
                     //если есть ячейки с индексами не равное null, т,е. не пустые
-                    if(array[i] != null){
+                    if (array[i] != null) {
                         //то меняем ячейки
                         array[point] = array[i];
                         array[i] = null;
@@ -25,10 +27,10 @@ public class Defragment {
     }
 
     public static void main(String[] args) {
-        String[] input ={"I",null,"wanna",null,"compressed"};
+        String[] input = {"I", null, "wanna", null, "compressed"};
         String[] compressed = compress(input);
         System.out.println();
-        for (int index = 0; index < compressed.length ; index++) {
+        for (int index = 0; index < compressed.length; index++) {
             System.out.println(compressed[index] + " ");
         }
     }
