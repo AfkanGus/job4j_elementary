@@ -1,5 +1,7 @@
 
 package ru.job4j.condition;
+import static java.lang.Math.sqrt;
+import static java.lang.Math.pow;
 
 public class Point {
     private int x;
@@ -18,11 +20,11 @@ public class Point {
     }
 
     public double distance(Point that) {
-        return Math.sqrt(Math.pow((double)(this.x - that.x), 2.0D) + Math.pow((double)(this.y - that.y), 2.0D));
+        return sqrt(pow((this.x - that.x), 2) + pow((this.y - that.y), 2));
     }
 
     public double distance3d(Point that) {
-        return Math.sqrt(Math.pow((double)(this.x - that.x), 2.0D) + Math.pow((double)(this.y - that.y), 2.0D) + Math.pow((double)(this.z - that.z), 2.0D));
+        return sqrt(pow((this.x - that.x), 2) + pow((this.y - that.y), 2) + pow((this.z - that.z), 2));
     }
 
     public void info() {
