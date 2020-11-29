@@ -5,35 +5,29 @@ import org.junit.Assert;
 
 public class PointTest {
     @Test
-    public void when00to20then2() {
-        int expected = 2;
-        int x1 = 0;
-        int y1 = 0;
-        int x2 = 2;
-        int y2 = 0;
-        double out = Point.distance(x1, y1, x2, y2);
+    public void when50to40then2() {
+        Point a = new Point(5, 0);
+        Point b = new Point(4, 0);
+        double out = a.distance(b);
+        double expected = 1;
         Assert.assertEquals(expected, out, 0.01);
     }
 
     @Test
-    public void when21to22then2() {
-        int expected = 1;
-        int x1 = 2;
-        int y1 = 1;
-        int x2 = 2;
-        int y2 = 2;
-        double out = Point.distance(x1, y1, x2, y2);
+    public void when20to30then2() {
+        Point a = new Point(2, 0);
+        Point b = new Point(3, 0);
+        double out = a.distance(b);
+        double expected = 1;
         Assert.assertEquals(expected, out, 0.01);
     }
 
     @Test
-    public void when00to01then2() {
-        int expected = 2;
-        int x1 = 0;
-        int y1 = 0;
-        int x2 = 0;
-        int y2 = 2;
-        double out = Point.distance(x1, y1, x2, y2);
+    public void when60to10then2() {
+        Point a = new Point(6, 0);
+        Point b = new Point(1, 0);
+        double out = a.distance(b);
+        double expected = 5;
         Assert.assertEquals(expected, out, 0.01);
     }
 }
