@@ -1,36 +1,33 @@
 package ru.job4j.condition;
 
-import org.junit.Assert;
 import org.junit.Test;
+import org.junit.Assert;
 
 public class PointTest {
-    public PointTest() {
-    }
-
     @Test
-    public void when00to20then2() {
-        Point a = new Point(0, 0);
-        Point b = new Point(2, 0);
+    public void when50to40then2() {
+        Point a = new Point(5, 0);
+        Point b = new Point(4, 0);
         double out = a.distance(b);
-        double expected = 2.0D;
+        double expected = 1;
         Assert.assertEquals(expected, out, 0.01);
     }
 
     @Test
-    public void when21to22then2() {
-        Point a = new Point(2, 1);
-        Point b = new Point(2, 2);
+    public void when20to30then2() {
+        Point a = new Point(2, 0);
+        Point b = new Point(3, 0);
         double out = a.distance(b);
-        double expected = 1.0D;
+        double expected = 1;
         Assert.assertEquals(expected, out, 0.01);
     }
 
     @Test
-    public void when00to01then1() {
-        Point a = new Point(0, 0);
-        Point b = new Point(0, 1);
-        double out = a.distance(b);
-        double expected = 1.0D;
+    public void when601to103then3() {
+        Point a = new Point(6, 0,0);
+        Point b = new Point(1, 0,0);
+        double out = a.distance3d(b);
+        double expected = 5;
         Assert.assertEquals(expected, out, 0.01);
     }
 }
