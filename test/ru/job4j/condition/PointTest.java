@@ -23,7 +23,7 @@ public class PointTest {
     }
 
     @Test
-    public void when601to103then3() {
+    public void when600to100then3() {
         Point a = new Point(6, 0, 0);
         Point b = new Point(1, 0, 0);
         double out = a.distance3d(b);
