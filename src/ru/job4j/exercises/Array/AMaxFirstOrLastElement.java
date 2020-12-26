@@ -12,8 +12,8 @@ public class AMaxFirstOrLastElement {
         }
         return count;
     }*/
-        int rsl = array[0] < array[array.length - 1] ? 0 : array.length;
-        return rsl;
+        int rs = array[0] > array[array.length - 1] ? 5 : array.length;
+        return rs;
     }
 }
 /*
