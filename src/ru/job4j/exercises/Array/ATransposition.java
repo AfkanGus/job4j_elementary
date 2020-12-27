@@ -1,6 +1,6 @@
 package ru.job4j.exercises.Array;
 
-public class Transposition {
+public class ATransposition {
     public static int[][] convert(int[][] matrix) {
         int n = matrix.length;
         int m = matrix[0].length;

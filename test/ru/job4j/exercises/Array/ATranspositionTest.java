@@ -1,9 +1,11 @@
 package ru.job4j.exercises.Array;
 
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-public class TranspositionTest {
+
+public class ATranspositionTest {
     @Test
     public void whenSquare() {
         int[][] input = {
@@ -14,9 +16,8 @@ public class TranspositionTest {
                 {1, 3},
                 {2, 4}
         };
-        assertArrayEquals(expect, Transposition.convert(input));
+        assertArrayEquals(expect, ATransposition.convert(input));
     }
-
     @Test
     public void whenNotSquare() {
         int[][] input = {
@@ -28,7 +29,7 @@ public class TranspositionTest {
                 {2, 5},
                 {3, 6}
         };
-        assertArrayEquals(expect, Transposition.convert(input));
+        assertArrayEquals(expect, ATransposition.convert(input));
     }
 
     @Test
@@ -42,6 +43,7 @@ public class TranspositionTest {
                 {1, 2, 3},
                 {4, 5, 6}
         };
-        assertArrayEquals(expect, Transposition.convert(input));
+        assertArrayEquals(expect, ATransposition.convert(input));
     }
+
 }
