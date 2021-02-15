@@ -2,7 +2,7 @@ package ru.job4j.exercises.Array;
 
 public class TwoSquareArrays {
     public static int[] collectArray(int[][] left, int[][] right) {
-        int[] res = new int[left.length * right.length];
+        int[] res = new int[left.length * left.length];
         int count = 0;
         for (int i = 0; i < left.length; i++) {
             for (int j = 0; j < right.length; j++) {
@@ -11,8 +11,8 @@ public class TwoSquareArrays {
                 } else {
                     res[count] = right[i][j];
                 }
+                count ++;
             }
-            count++;
         }
         return res;
     }
