@@ -8,11 +8,10 @@ public class ArrayChar {
         for (int index = 0; index < pref.length; index++) {
             //В условии  сравнить значения ячеек с одинаковым индексом
             if (word[index] != pref[index]) {
-               // Если элемент отличается, значит, word не начинается со слова pref.
+                // Если элемент отличается, значит, word не начинается со слова pref.
                 return false;
             }
         }
         return result;
     }
-
 }

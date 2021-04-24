@@ -2,6 +2,7 @@ package ru.job4j.exercises.Array;
 
 public class MergeRows {
     public static int[] merge(int[][] data) {
+
         int length = 0;
         for (int i = 0; i < data.length; i++) {
             length += data[i].length;
