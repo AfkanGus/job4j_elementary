@@ -1,4 +1,4 @@
-package ru.job4j.exercises.Array;
+package ru.job4j.exercises.array;
 
 public class UnionThreeArrays {
     public static int[] union(int[] left, int[] middle, int[] right) {

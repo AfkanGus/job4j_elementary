@@ -1,4 +1,4 @@
-package ru.job4j.exercises.Array;
+package ru.job4j.exercises.array;
 
 public class SumWithStopEl {
     public static int count(int[] data, int el) {

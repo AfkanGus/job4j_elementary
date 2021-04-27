@@ -1,4 +1,4 @@
-package ru.job4j.exercises.Array;
+package ru.job4j.exercises.array;
 
 public class ATransposition {
     public static int[][] convert(int[][] matrix) {

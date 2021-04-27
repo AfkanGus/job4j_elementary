@@ -1,4 +1,4 @@
-package ru.job4j.exercises.Array;
+package ru.job4j.exercises.array;
 
 public class Converter {
     public static int[][] convertInSquareArray(int[][] array) {

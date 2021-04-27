@@ -1,4 +1,4 @@
-package ru.job4j.exercises.Array;
+package ru.job4j.exercises.array;
 
 /**
  * Дан массив из трех элементов. В нем записаны соответственно

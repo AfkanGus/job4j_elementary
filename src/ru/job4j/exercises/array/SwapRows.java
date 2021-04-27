@@ -1,4 +1,4 @@
-package ru.job4j.exercises.Array;
+package ru.job4j.exercises.array;
 
 public class SwapRows {
     public static void swap(int[][] data, int src, int dst) {

@@ -13,10 +13,9 @@ public class WordsToText {
         String result = " ";
         StringBuilder str = new StringBuilder();
         for (int i = 0; i < words.length - 1; i++) {
-            str.append(words);
+            str.append(words[i] + result);
         }
-        return str.toString().trim() + result;
-
+        return str + words[words.length - 1];
     }
 }
 

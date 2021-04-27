@@ -1,4 +1,4 @@
-package ru.job4j.exercises.Array;
+package ru.job4j.exercises.array;
 
 public class CrossArray {
     public static void printCrossEl(int[] left, int[] right) {

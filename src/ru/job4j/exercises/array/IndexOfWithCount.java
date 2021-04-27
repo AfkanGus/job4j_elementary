@@ -1,4 +1,4 @@
-package ru.job4j.exercises.Array;
+package ru.job4j.exercises.array;
 
 public class IndexOfWithCount {
     public static int indexOf(char[] string, char c, int number) {
