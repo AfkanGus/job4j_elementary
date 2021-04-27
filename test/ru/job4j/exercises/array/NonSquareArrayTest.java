@@ -1,4 +1,4 @@
-package ru.job4j.exercises.Array;
+package ru.job4j.exercises.array;
 
 import org.junit.Test;
 import java.io.ByteArrayOutputStream;
