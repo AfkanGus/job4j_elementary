@@ -1,4 +1,4 @@
-package ru.job4j.Book;
+package ru.job4j.book;
 
 public class LotteryDrawing {
 
