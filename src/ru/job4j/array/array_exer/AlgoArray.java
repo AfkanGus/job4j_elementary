@@ -1,4 +1,4 @@
-package ru.job4j.array.arrayExer;
+package ru.job4j.array.array_exer;
 
 public class AlgoArray {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ru.job4j.array.arrayExer;
+package ru.job4j.array.array_exer;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.core.Is.is;

@@ -1,4 +1,4 @@
-package ru.job4j.array.arrayExer;
+package ru.job4j.array.array_exer;
 
 public class Two {
     public static int indexOf(int[] data, int el) {

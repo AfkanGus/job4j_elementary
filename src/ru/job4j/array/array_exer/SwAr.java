@@ -1,4 +1,4 @@
-package ru.job4j.array.arrayExer;
+package ru.job4j.array.array_exer;
 
 public class SwAr {
     public static int[] sw(int[] array, int source, int dest) {
