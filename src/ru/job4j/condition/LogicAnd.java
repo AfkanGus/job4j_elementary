@@ -1,4 +1,5 @@
 package ru.job4j.condition;
+
 /*Проверка двух условий. Логическое И
 Чтобы проверить, что оба выражения являются истинными нужно
 использовать &&. Синтаксис
@@ -7,8 +8,7 @@ package ru.job4j.condition;
  положительно И четное
  */
 public class LogicAnd {
-    public static boolean check(int num){
-        return (num > 0) && ( num % 2==0);
-
+    public static boolean check(int num) {
+        return (num > 0) && (num % 2 == 0);
     }
 }

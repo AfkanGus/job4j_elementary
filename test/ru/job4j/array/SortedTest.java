@@ -15,6 +15,7 @@ public class SortedTest {
                 is(true)
         );
     }
+
     @Test
     public void whenNotSorted() {
         assertThat(

@@ -18,6 +18,7 @@ public class ATranspositionTest {
         };
         assertArrayEquals(expect, ATransposition.convert(input));
     }
+
     @Test
     public void whenNotSquare() {
         int[][] input = {

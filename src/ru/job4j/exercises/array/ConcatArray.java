@@ -2,7 +2,7 @@ package ru.job4j.exercises.array;
 
 public class ConcatArray {
     public static int combineSize(int[] a, int[] b) {
-        int rsl[] = new int[a.length + b.length];
+        int[] rsl = new int[a.length + b.length];
         return rsl.length;
     }
 }

@@ -51,8 +51,7 @@ public class MatrixCheck {
         for (int index = 0; index < board.length; index++) {
             //Если все элементы в строке и столбце(вызав методы проверки заполнения
             // 'X' в строке и столбце)содержат элеметы 'Х', вернуть true
-            if (board[index][index] == 'X') ;
-            {
+            if (board[index][index] == 'X') {
                 if (MatrixCheck.monoHorizontal(board, index) || MatrixCheck.monoVertical(board, index)) {
                     result = true;
                     //Принудительно завершить цикл

@@ -3,8 +3,6 @@ package ru.job4j.array;
 public class ArrayDefinition {
 
     public static void main(String[] args) {
-
-
         //Массив на 10 элементов типа short с именем ages.
         short[] ages = new short[10];
         System.out.println(" Размер масисва ages  равен " + ages.length);
@@ -14,8 +12,6 @@ public class ArrayDefinition {
         //Массив на 40 элементов типа float с именем prices.
         float[] prices = new float[40];
         System.out.println(" Размер масисва prise  равен " + prices.length);
-
-
         String[] names = new String[4];
         names[0] = "Petr Arsentev";
         names[1] = "Vladimir Putin";
@@ -25,6 +21,5 @@ public class ArrayDefinition {
         System.out.println(names[1]);
         System.out.println(names[2]);
         System.out.println(names[3]);
-
     }
 }

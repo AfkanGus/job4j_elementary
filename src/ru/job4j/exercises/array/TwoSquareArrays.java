@@ -11,7 +11,7 @@ public class TwoSquareArrays {
                 } else {
                     res[count] = right[i][j];
                 }
-                count ++;
+                count++;
             }
         }
         return res;

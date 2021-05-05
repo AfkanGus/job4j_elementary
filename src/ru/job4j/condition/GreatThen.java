@@ -1,4 +1,5 @@
 package ru.job4j.condition;
+
 /*
 Чтобы проверить, что первое число больше второго
 в Java используется оператор ">".
@@ -9,7 +10,7 @@ boolean result = first > second;
 должна вернуть истина, если первое число больше второго.*/
 public class GreatThen {
     public static boolean check(int first, int second) {
-        if(first > second) {
+        if (first > second) {
             return true;
         }
         return false;

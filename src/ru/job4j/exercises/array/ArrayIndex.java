@@ -7,7 +7,7 @@ public class ArrayIndex {
     }
 
     public static int getLastElement(int[] array) {
-        int rsl = array[array.length-1];
+        int rsl = array[array.length - 1];
         return rsl;
     }
 }

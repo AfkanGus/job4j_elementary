@@ -2,6 +2,7 @@ package ru.job4j.loop;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.Matchers.is;
+
 import org.junit.Test;
 
 public class CounterDemoTest {
@@ -11,8 +12,6 @@ public class CounterDemoTest {
         int expected = 30;
         assertThat(rsl, is(expected));
     }
-
-
 
     @Test
     public void whenSumEvenNumbersFromOneToFifeThenThirty() {

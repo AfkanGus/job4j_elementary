@@ -13,6 +13,7 @@ public class LessThenTest {
                 is(true)
         );
     }
+
     @Test
     public void whenFirstGreat() {
         assertThat(

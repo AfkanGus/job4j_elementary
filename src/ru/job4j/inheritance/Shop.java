@@ -7,10 +7,7 @@ public class Shop {
     }
 
     public static Product of(String name, int price) {
-
-
         return new Product(name, price);
-
     }
 }
 

@@ -33,7 +33,6 @@ public class DiffArray {
             }
             if (needToAdd) {
                 rsl[size++] = left[i];
-
             }
         }
         return Arrays.copyOf(rsl, size);

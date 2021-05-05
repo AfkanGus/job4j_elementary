@@ -24,6 +24,4 @@ public class ChessBoardTest {
         int way = ChessBoard.way(2, 6, 4, 1);
         assertThat(way, is(0));
     }
-
-
 }

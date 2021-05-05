@@ -26,7 +26,6 @@ public class StrBuildLeng {
         }
         System.out.println(str.length());
 
-
         /**
          * reverse - обратное преобразование
          */
@@ -34,6 +33,5 @@ public class StrBuildLeng {
         str3.append("abc");
         str3.reverse();
         System.out.println(str3);
-
     }
 }

@@ -9,7 +9,6 @@ public class CounterDemo {
             sum = sum + i;
         }
         return sum;
-
     }
 
     //Добавляем метод вычисления суммы четных чисел
@@ -23,8 +22,5 @@ public class CounterDemo {
             }
         }
         return sum;
-
     }
-
-
 }

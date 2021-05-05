@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 
 public class MathAbsTest {
     @Test
-    public void MathAbsTest() {
+    public void mathAbsTest() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
         MathAbs.main(null);
