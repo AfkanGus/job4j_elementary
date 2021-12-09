@@ -13,7 +13,6 @@ public class Calculator {
 
     /**
      * @param d - параметр нестатического метода
-     * @return
      */
     public int divide(int d) {
         return d / X;
@@ -21,7 +20,6 @@ public class Calculator {
 
     /**
      * @param y - параметр статического метода
-     * @return
      */
     public static int sum(int y) {
         return X + y;
