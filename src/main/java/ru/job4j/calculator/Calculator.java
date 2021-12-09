@@ -1,5 +1,8 @@
 package ru.job4j.calculator;
 
+/**
+ * 1.9. Статические и не статические методы [#504806 #237734]
+ */
 public class Calculator {
     private static final int X = 5;
 
