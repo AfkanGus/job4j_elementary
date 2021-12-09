@@ -1,5 +1,8 @@
 package ru.job4j.calculator;
 
+/**
+ * Класс Калькулятор
+ */
 public class Calculator {
     private static final int X = 5;
 
