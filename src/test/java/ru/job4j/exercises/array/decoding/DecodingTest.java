@@ -1,4 +1,4 @@
-package ru.job4j.exercises.array.deconding;
+package ru.job4j.exercises.array.decoding;
 
 import org.junit.Test;
 
