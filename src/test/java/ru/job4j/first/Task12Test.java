@@ -1,6 +1,7 @@
-package first;
+package ru.job4j.first;
 
 import org.junit.Test;
+import ru.job4j.first.Task12;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
