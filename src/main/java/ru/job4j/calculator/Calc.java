@@ -16,6 +16,6 @@ public class Calc {
 
     public static void main(String[] args) {
         plus(1, 2);
-        minus(3,8);
+        minus(3, 8);
     }
 }
