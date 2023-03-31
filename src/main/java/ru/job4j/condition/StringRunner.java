@@ -1,5 +1,8 @@
 package ru.job4j.condition;
 
+/**
+ * 9.3. Математические операторы и составные операторы присваивания.
+ */
 public class StringRunner {
     public static void main(String[] args) {
         String idea = "I like Java!";
