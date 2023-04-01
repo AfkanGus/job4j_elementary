@@ -1,0 +1,20 @@
+package ru.job4j.inheritance;
+
+public class Cat extends Animal {
+    /**
+     * Переопределим в классе Cat метод instanceInvoke()
+     * родительского класса Animal, и определим статический метод staticInvoke().
+     */
+    @Override
+    public void instanceInvoke() {
+        System.out.println("Вызов метода экземпляра Cat");
+    }
+
+    /**
+     * что статический метод можно унаследовать, но нельзя переопределить
+     */
+     public static void staticInvoke() {
+         System.out.println("Вызов статического метода Cat");
+     }
+}
+
