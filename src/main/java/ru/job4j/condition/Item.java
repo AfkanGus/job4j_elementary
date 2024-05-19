@@ -8,7 +8,6 @@ public class Item {
     }
 
     public Item(int id) {
-        //Инизиалицируем переменные поля
         this.id = id;
     }
 

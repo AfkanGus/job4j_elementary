@@ -2,13 +2,9 @@ package ru.job4j.array;
 
 /*начение ячеек source и dest нужно поменять местами.*/
 public class SwitchArray {
-    //Метод будет менять местами произвольные элементы.
     public static int[] swap(int[] array, int source, int dest) {
-        //array[source] - значение ячейки с индексом source
         int tmp = array[source];
-        //array[dest] -значение ячейки с индеком dest
         array[source] = array[dest];
-        //значение ячейки с индеком dest передаются временной переменой tmp
         array[dest] = tmp;
         return array;
     }
@@ -27,7 +23,6 @@ public class SwitchArray {
 
     public static void main(String[] args) {
         int[] nums = new int[]{1, 2, 3, 4, 5, 6};
-        //Метод swapBorder - меняет местами нулевой элемент и последний элемент в массиве.
         int[] rsl = swapBorder(nums);
         for (int index = 0; index < rsl.length; index++) {
             System.out.println(rsl[index]);

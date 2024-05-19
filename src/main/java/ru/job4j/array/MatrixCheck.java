@@ -5,7 +5,6 @@ package ru.job4j.array;
 public class MatrixCheck {
     public static boolean monoHorizontal(char[][] board, int row) {
         boolean result = true;
-        //Перебираем все индексы ячейки в массиве board
         for (int index = 0; index < board.length; index++) {
             /*Если все индексы строки и колонки([row][index]) не равны 'X'*/
             if (board[row][index] != 'X') {
@@ -46,15 +45,14 @@ public class MatrixCheck {
     /*Метод, который проверяет, находится ли на поле выигрышная ситуация.*/
     public static boolean isWin(char[][] board) {
         boolean result = false;
-        //Перебираем ячеки, ищем Х,он долже быть по диагонали,
-        // если нашли, то в  if проверяем
+        /*Перебираем ячеки, ищем Х,он долже быть по диагонали,
+        // если нашли, то в  if проверяем*/
         for (int index = 0; index < board.length; index++) {
-            //Если все элементы в строке и столбце(вызав методы проверки заполнения
-            // 'X' в строке и столбце)содержат элеметы 'Х', вернуть true
+            /*Если все элементы в строке и столбце(вызав методы проверки заполнения
+            // 'X' в строке и столбце)содержат элеметы 'Х', вернуть true*/
             if (board[index][index] == 'X') {
                 if (MatrixCheck.monoHorizontal(board, index) || MatrixCheck.monoVertical(board, index)) {
                     result = true;
-                    //Принудительно завершить цикл
                     break;
                 }
             }

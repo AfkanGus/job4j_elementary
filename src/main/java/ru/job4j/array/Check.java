@@ -11,7 +11,6 @@ public class Check {
                 return false;
             }
         }
-        // Если не сработает код в цикла, вернем true
         return result;
     }
 }

@@ -2,10 +2,7 @@ package ru.job4j.exercisesarray.words.to.text;
 
 public class StrBuildInsert {
     public static void main(String[] args) {
-        //initialize StringBuilder with this value.
         StringBuilder str = new StringBuilder("abc");
-
-        //Insert this substring at position 2.
         str.insert(2, "xyz");
         System.out.println(str);
     }

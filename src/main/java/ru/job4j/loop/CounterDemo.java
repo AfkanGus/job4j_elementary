@@ -1,7 +1,6 @@
 package ru.job4j.loop;
 
 public class CounterDemo {
-    //Добавляем мотод вычисления суммы чисел
     public static int sum(int start, int finish) {
         int sum = 0;
         int i;
@@ -11,7 +10,6 @@ public class CounterDemo {
         return sum;
     }
 
-    //Добавляем метод вычисления суммы четных чисел
     public static int sumByEven(int start, int finish) {
         int sum = 0;
         int i;

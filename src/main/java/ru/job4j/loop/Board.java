@@ -4,7 +4,7 @@ public class Board {
     public static void paint(int width, int height) {
         for (int row = 0; row <= height; row++) {
             for (int cell = 0; cell <= width; cell++) {
-                //сумма строки и ячейки деленная на 2 без остатка
+                /*сумма строки и ячейки деленная на 2 без остатка*/
                 if ((row + cell) % 2 == 0) {
                     System.out.print("X");
                 } else {

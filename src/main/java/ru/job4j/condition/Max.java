@@ -1,7 +1,6 @@
 package ru.job4j.condition;
 
 public class Max {
-    //Создаем метод, в коротом будет производится сравение
     public static int max(int first, int second) {
         return first > second ? first : second;
     }

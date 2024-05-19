@@ -1,10 +1,8 @@
 package ru.job4j.max;
 
 public class Reduce {
-    //Поле объекта
     private int[] array;
 
-    //Коструктор объекта
     public void to(int[] array) {
         this.array = array;
     }

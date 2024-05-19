@@ -7,7 +7,6 @@ public class StrBuildAppendAppend {
         short val3 = 5;
         char val4 = 'A';
 
-        //Create StringBuilder and add four values to it;
         StringBuilder str = new StringBuilder();
         str.append(val).append("\n");
         str.append(val2).append("\n");

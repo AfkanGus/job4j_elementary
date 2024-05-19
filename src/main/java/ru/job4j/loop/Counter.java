@@ -13,8 +13,7 @@ public class Counter {
     }
 
     public static void main(String[] args) {
-        //int rsl = Counter.sum(0, 5);
-        // System.out.println(rsl);
+
         System.out.println(sum(0, 5));
         System.out.println(sum(0, 10));
         System.out.println(sum(3, 8));

@@ -7,12 +7,8 @@ public class StrBuildIndexOf {
      */
     public static void main(String[] args) {
         StringBuilder str = new StringBuilder("abc");
-
-        //Try to find this substring.
         int rsl = str.indexOf("bc");
         System.out.println(rsl);
-
-        //This substring does not exist.
         int rsl2 = str.indexOf("de");
         System.out.println(rsl2);
     }
