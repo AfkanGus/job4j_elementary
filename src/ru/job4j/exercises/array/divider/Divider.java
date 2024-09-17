@@ -1,4 +1,4 @@
-package ru.job4j.exercises.array.divider;
+package exercises.array.divider;
 
 /**
  * 58. Кратность числа

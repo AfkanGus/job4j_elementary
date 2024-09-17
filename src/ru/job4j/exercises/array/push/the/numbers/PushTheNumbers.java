@@ -1,4 +1,4 @@
-package ru.job4j.exercises.array.push.the.numbers;
+package exercises.array.push.the.numbers;
 
 /**
  * 59. Раздвинуть элементы массива

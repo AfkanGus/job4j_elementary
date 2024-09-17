@@ -1,4 +1,4 @@
-package ru.job4j.exercises.array.positive.or.negative;
+package exercises.array.positive.or.negative;
 
 /**
  * 55.Четное или нечетное количество отрицательных значений

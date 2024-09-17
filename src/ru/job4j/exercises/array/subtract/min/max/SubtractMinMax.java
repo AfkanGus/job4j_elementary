@@ -1,4 +1,4 @@
-package ru.job4j.exercises.array.subtract.min.max;
+package exercises.array.subtract.min.max;
 
 /**
  * 57. Разница между минимумом и максимумом

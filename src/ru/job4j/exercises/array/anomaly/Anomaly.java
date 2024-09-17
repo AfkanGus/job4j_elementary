@@ -1,4 +1,4 @@
-package ru.job4j.exercises.array.anomaly;
+package exercises.array.anomaly;
 
 import java.util.Arrays;
 
