@@ -2,9 +2,12 @@ package ru.job4j.array;
 
 import org.junit.Test;
 
-import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
 
+/**
+ * GPT. Нейросети спешат на помощь. [#505156]
+ */
 public class SortSelectedTest {
     @Test
     public void whenSort() {
