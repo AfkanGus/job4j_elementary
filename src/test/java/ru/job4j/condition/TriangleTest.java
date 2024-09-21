@@ -2,21 +2,19 @@ package ru.job4j.condition;
 
 import org.junit.Test;
 
-import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
 
 public class TriangleTest {
 
     @Test
     public void whenExist() {
-        //Треугольник сушествует
         boolean result = Triangle.exist(2.0, 2.0, 2.0);
         assertThat(result, is(true));
     }
 
     @Test
     public void whenNotExist() {
-        //Треугольник не сушествует
         boolean result = Triangle.exist(0.0, 0.0, 0.0);
         assertThat(result, is(false));
     }

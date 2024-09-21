@@ -1,6 +1,7 @@
 package ru.job4j.diff.array;
 
 import org.junit.Test;
+import ru.job4j.push.the.numbers.array.DiffArray;
 
 import static org.junit.Assert.*;
 

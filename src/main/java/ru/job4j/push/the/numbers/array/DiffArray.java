@@ -1,4 +1,4 @@
-package ru.job4j.diff.array;
+package ru.job4j.push.the.numbers.array;
 
 import java.util.Arrays;
 

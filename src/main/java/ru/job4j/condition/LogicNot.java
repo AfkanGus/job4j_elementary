@@ -1,6 +1,5 @@
 package ru.job4j.condition;
 
-//Демонстрация логического отрицания !
 public class LogicNot {
 
     public boolean isEven(int num) {

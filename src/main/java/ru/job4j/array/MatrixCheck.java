@@ -1,7 +1,9 @@
 package ru.job4j.array;
 
-/*В этом задании нужно проверить то, что строка в
-двухмерном массиве целиком заполнена символом 'X'.*/
+/**
+ * В этом задании нужно проверить то, что строка в
+ * двухмерном массиве целиком заполнена символом 'X'.
+ */
 public class MatrixCheck {
     public static boolean monoHorizontal(char[][] board, int row) {
         boolean result = true;
@@ -46,10 +48,10 @@ public class MatrixCheck {
     public static boolean isWin(char[][] board) {
         boolean result = false;
         /*Перебираем ячеки, ищем Х,он долже быть по диагонали,
-        // если нашли, то в  if проверяем*/
+        если нашли, то в  if проверяем*/
         for (int index = 0; index < board.length; index++) {
             /*Если все элементы в строке и столбце(вызав методы проверки заполнения
-            // 'X' в строке и столбце)содержат элеметы 'Х', вернуть true*/
+             'X' в строке и столбце)содержат элеметы 'Х', вернуть true*/
             if (board[index][index] == 'X') {
                 if (MatrixCheck.monoHorizontal(board, index) || MatrixCheck.monoVertical(board, index)) {
                     result = true;
