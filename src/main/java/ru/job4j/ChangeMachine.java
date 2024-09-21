@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * Автомат размена купюр.
+ * Автомат размена купюр
  */
 public class ChangeMachine {
     public List<int[]> getChangeVariants(int amount) {
