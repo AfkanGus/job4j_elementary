@@ -9,9 +9,6 @@ import java.util.List;
 public class ChangeMachine {
     public List<int[]> getChangeVariants(int amount) {
         List<int[]> variants = new ArrayList<>();
-
-
         return variants;
-
     }
 }

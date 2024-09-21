@@ -1,4 +1,4 @@
-package ru.job4j.exercises.array.deconding;
+package exercises.array.deconding;
 
 /**
  * 56. Кодировщик
