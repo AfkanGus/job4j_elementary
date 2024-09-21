@@ -6,7 +6,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 /**
- * GPT. Нейросети спешат на помощь. [#505156]
+ * GPT. Нейросети спешат на помощь.[#505156]
  */
 public class SortSelectedTest {
     @Test
